@@ -1,0 +1,48 @@
+header{
+  min-height: 70px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: white;
+  margin-top: 40px;
+  .wrap{
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .logo{
+          margin: 20px 0px;
+          img{
+              height: 80px
+          };
+      }
+      ul{
+          padding-top: 52px;
+          text-transform: uppercase;
+
+          li{
+              display: inline-block;
+              margin: 0px 20px;
+              padding-bottom: 52px;
+              position: relative;
+              a:hover{
+               color: lightblue;
+              } 
+          }
+      
+      }
+      
+  }
+}
+.underline::after{
+ display: block;
+ content: '';
+ height: 5px;
+ background-color: lightblue;
+ width: 100%;
+ position: absolute;
+ bottom: 0;
+}
+.colored{
+  color: lightblue;
+}
