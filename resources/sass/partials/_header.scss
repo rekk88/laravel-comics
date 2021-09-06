@@ -1,15 +1,17 @@
 header{
   min-height: 70px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   background-color: white;
-  margin-top: 40px;
+  .header_top{
+    background-color: blue;
+  }
   .wrap{
-      width: 90%;
+      width: 100%;
       margin: 0 auto;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
       .logo{
           margin: 20px 0px;
           img{
