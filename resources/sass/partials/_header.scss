@@ -27,6 +27,17 @@ header{
               margin: 0px 20px;
               padding-bottom: 52px;
               position: relative;
+              .shop_link{
+                // width: 0; 
+                // height: 0; 
+                // border-left: 10px solid transparent;
+                // border-right: 10px solid transparent;
+                // border-top: 10px solid #f00;
+                // content: "\2023";
+                color: $my_blue;
+                font-size: 13px;
+                // transform: rotateY(180deg);
+              }
               a:hover{
                color: lightblue;
               } 

@@ -17,7 +17,7 @@
         <li><a>videos</a></li>
         <li><a>fans</a></li>
         <li><a>news</a></li>
-        <li><a>shop</a></li>
+        <li><a>shop</a> <span class="shop_link">&#9660;</span> </li>
         <li><input type="text" placeholder="search"> </li>
 
       </ul>
